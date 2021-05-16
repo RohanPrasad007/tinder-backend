@@ -6,7 +6,7 @@ import cors from 'cors';
 
 // App config
 const app = express();
-const port=80;
+const port=process.env.PORT || 80;
 const connctionUrl="mongodb+srv://admin:nShwre4lYZfY0xb5@cluster0.yox00.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 // middlewaes
